@@ -1,4 +1,4 @@
-Project Report: AI-Driven SAN Traffic Management
+# Project Report: AI-Driven SAN Traffic Management
 
 Author: [Your Name]
 Course: [Your Course Name]
@@ -11,7 +11,7 @@ The goal of this project is to design, implement, and evaluate a simulated Stora
 2. System Architecture
 
 The system is composed of five main components, simulating a closed-loop control system:
-
+```text
 +---------------------+
 |  Traffic Generator  |   (san_traffic_simulator.py)
 |  (Simulates R/W ops)|
@@ -38,7 +38,7 @@ The system is composed of five main components, simulating a closed-loop control
 |  - Before vs. After |
 +---------------------+
 
-
+```
 3. Implementation Plan & Methodology
 
 The project was executed in five distinct phases, matching the initial plan.
@@ -145,7 +145,7 @@ Install required libraries:
 
 pip install -r requirements.txt
 
-
+```bash
 Running the Simulation (4 Steps)
 
 Run these commands from your terminal in this specific order:
@@ -174,7 +174,7 @@ Output: Creates optimized_traffic.csv
 Step 4: Launch the Streamlit dashboard.
 
 streamlit run dashboard.py
-
+```
 
 Output: Opens the interactive dashboard in your web browser.
 
