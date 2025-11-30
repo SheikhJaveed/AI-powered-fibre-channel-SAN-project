@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter & Streamlit cache
+.ipynb_checkpoints/
+.streamlit/
+
+# Model + scaler artifacts
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.sav
+
+# CSV output data (generated at runtime)
+san_traffic.csv
+optimized_traffic.csv
+
+# Logs
+*.log
+
+# OS/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.local
+
+# Build / dist artifacts
+build/
+dist/
+*.egg-info/
+
+
